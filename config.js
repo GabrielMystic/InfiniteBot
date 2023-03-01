@@ -132,7 +132,7 @@ global.moment = moment
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
 global.packname = '𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐞 - 𝐁𝐨𝐭 🪐'
-global.author = '𝐆𝐚𝐛𝐫𝐢𝐞𝐥
+global.author = '𝐆𝐚𝐛𝐫𝐢𝐞𝐥'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
