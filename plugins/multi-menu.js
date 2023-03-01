@@ -63,10 +63,10 @@ let username = conn.getName(who)
 let user = global.db.data.users[m.sender]
 //user.registered = false
 
-let pp = gataVidMenu.getRandom()
+let pp = infiniteVidMenu.getRandom()
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let fsizedoc = '1'.repeat(10)
-let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: ig, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(gataMenu.getRandom())).buffer(), sourceUrl: redesMenu.getRandom() }}}
+let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: ig, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(infiniteMenu.getRandom())).buffer(), sourceUrl: redesMenu.getRandom() }}}
 
 const temaX = [['pornololi', 'nsfwloli'], ['pornopies', 'nsfwfoot'], ['pornoass', 'nsfwass'], ['pornobdsm', 'nsfwbdsm'], ['pornocum', 'nsfwcum'],
 ['pornoero', 'nsfwero'], ['pornodominar', 'nsfwfemdom'], ['pornoglass', 'nsfwglass'], ['pornohentai', 'nsfwhentai'], ['pornorgia', 'nsfworgy'], ['pornotetas', 'nsfwboobs'],
@@ -471,12 +471,12 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex13']()} 💫
-∘ _${usedPrefix}cuentasgatabot | cuentasgb_
-∘ _${usedPrefix}gruposgb | grupos | groupgb_
+∘ _${usedPrefix}cuentasinfinitebot | cuentasib_
+∘ _${usedPrefix}gruposib | grupos | groupib_
 ∘ _${usedPrefix}donar | donate_
 ∘ _${usedPrefix}listagrupos | grouplist_
-∘ _${usedPrefix}estado | heygata | status_
-∘ _${usedPrefix}infogata | infobot_
+∘ _${usedPrefix}estado | heyinfinite | status_
+∘ _${usedPrefix}infoinfinite | infobot_
 ∘ _${usedPrefix}instalarbot | installbot_
 ∘ _${usedPrefix}creadora | owner_
 ∘ _${usedPrefix}velocidad | ping_
@@ -570,7 +570,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}unete *enlace*_
 ∘ _${usedPrefix}dardiamantes *cantidad*_
 ∘ _${usedPrefix}darxp *cantidad*_
-∘ _${usedPrefix}dargatacoins *cantidad*_
+∘ _${usedPrefix}darorioncoins *cantidad*_
 ∘ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
 ∘ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
 ∘ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
@@ -584,7 +584,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}comunicargrupos *texto*_
 ∘ _${usedPrefix}borrartmp | cleartmp_
 ∘ _${usedPrefix}delexp *@tag*_
-∘ _${usedPrefix}delgatacoins *@tag*_
+∘ _${usedPrefix}delorioncoins *@tag*_
 ∘ _${usedPrefix}deldiamantes *@tag*_
 ∘ _${usedPrefix}reiniciar | restart_
 ∘ _${usedPrefix}ctualizar | update_
@@ -593,7 +593,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}listapremium | listprem_
 ∘ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ∘ _${usedPrefix}añadirxp *@tag cantidad*_
-∘ _${usedPrefix}añadirgatacoins *@tag cantidad*_
+∘ _${usedPrefix}añadirorioncoins *@tag cantidad*_
 `.trim()
 await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
@@ -708,7 +708,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}myns_
 ∘ _${usedPrefix}unreg *numero de serie*_
 ∘ _${usedPrefix}minardiamantes | minargemas_
-∘ _${usedPrefix}minargatacoins | minarcoins_
+∘ _${usedPrefix}minarorioncoins | minarcoins_
 ∘ _${usedPrefix}minarexperiencia | minarexp_
 ∘ _${usedPrefix}minar *:* minar2 *:* minar3_
 ∘ _${usedPrefix}reclamar | regalo | claim_
