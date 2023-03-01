@@ -11,8 +11,8 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-['5493491456806', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈'], 
-['51959473074', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 2 💖🐈'], 
+['5493491456806', '𝘾𝙍𝙀𝘼𝘿𝙊𝙍 ✨'], 
+['37166667469', '𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼 🤓'], 
 ['', ''],
 ['', '', true],
 ['', '', true],
@@ -144,7 +144,7 @@ global.yt = ''
 global.yt2 = 'https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s'
 global.ig = 'https://www.instagram.com/gabrielacosta_15'
 global.md = 'https://github.com/GabrielMystic/InfiniteBot'
-global.fb = 'https://www.facebook.com/groups/872989990425789/'
+global.fb = ''
 
 
 global.nna = '' //UPDATE 
@@ -197,7 +197,7 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 //𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
@@ -211,7 +211,7 @@ global.waitttt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*'
 global.nomorown = '593993684821'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 
 
 //⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
@@ -230,7 +230,7 @@ global.imagen11 = fs.readFileSync('./media/menus/img10.jpg')
 global.imagen12 = fs.readFileSync('./media/menus/img11.jpg')
 global.imagen13 = fs.readFileSync('./media/menus/img12.jpg')
 
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━ 
 
 
 //━━━━━━━━━━━━━━ img ━━━━━━━━━
