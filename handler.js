@@ -1182,8 +1182,8 @@ export async function handler(chatUpdate) {
 
                let hl = _prefix 
                 let adminMode = global.db.data.chats[m.chat].modoadmin
-                let gata = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
-                if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && gata) return   
+                let infinite = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
+                if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && infinite) return   
 
                if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { // Both Owner
                     fail('owner', m, this)
@@ -1230,7 +1230,7 @@ export async function handler(chatUpdate) {
                     m.reply('Exp limit') // Hehehe
                 else               
                 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-                    this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎`, m)
+                    this.reply(m.chat, `🪐 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝗢𝗥𝗜𝗢𝗡𝗖𝗢𝗜𝗡𝗦`, m)
                     continue     
 		}
 			
@@ -1300,7 +1300,7 @@ export async function handler(chatUpdate) {
                         m.reply(+m.limit + lenguajeGB.smsCont8())
                 }
                  if (m.money)
-                        m.reply(+m.money + ' 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎 🐱 𝙐𝙎𝘼𝘿𝙊(𝙎)')
+                        m.reply(+m.money + ' 𝗢𝗥𝗜𝗢𝗡𝗖𝗢𝗜𝗡𝗦 🪐 𝙐𝙎𝘼𝘿𝙊(𝙎)')
               
                 break
             }
@@ -1401,8 +1401,8 @@ export async function participantsUpdate({ id, participants, action }) {
 //this.sendButton(id, wm, text, apii.data, [[(action == 'add' ? lenguajeGB.smsCont13() : lenguajeGB.smsCont14()), (action == 'add' ? '.welgc' : '.welgc')], ['💖 Ser Verificado(a)', `.verify`]], null, {mentions: this.parseMention(text)})
 //}}}
 			    
-//CÓDIGO OFUSCADO - MOTIVOS RESERVADOS >> (DIEGO-OFC)			
-var _0x27174a=_0x245b;function _0x245b(_0x5ba6cf,_0x116611){var _0x129eef=_0x129e();return _0x245b=function(_0x245bb0,_0x7a0c7f){_0x245bb0=_0x245bb0-0x17d;var _0x5a3d9e=_0x129eef[_0x245bb0];return _0x5a3d9e;},_0x245b(_0x5ba6cf,_0x116611);}function _0x129e(){var _0xd79927=['add','33fxBeyP','🌟\x20𝗗𝗜𝗦𝗙𝗥𝗨𝗧𝗔\x20𝗗𝗘𝗟\x20𝗚𝗥𝗨𝗣𝗢!!\x20🌟','https://wa.me/18059196237','*:･ﾟ★,｡:｡:･ﾟ☆｡･:｡:･ﾟ★･ﾟ｡:｡:･ﾟ☆:･ﾟ*','16bioDUd','90560wOKftO','data','610896zNDtNW','.menu','2064neToif','5507784aMSEdW','getRandom','10KnWKrq','parseMention','smsCont13','2181762fhNpQI','.verify','smsCont14','10qOOcOK','9751PpKawr','3069783wBkFZj','214452ZfbkVq'];_0x129e=function(){return _0xd79927;};return _0x129e();}(function(_0x2dc98e,_0x5b154a){var _0x402f07=_0x245b,_0x315e18=_0x2dc98e();while(!![]){try{var _0x197cb1=parseInt(_0x402f07(0x191))/0x1*(parseInt(_0x402f07(0x192))/0x2)+-parseInt(_0x402f07(0x17d))/0x3+parseInt(_0x402f07(0x18b))/0x4+-parseInt(_0x402f07(0x188))/0x5*(parseInt(_0x402f07(0x185))/0x6)+-parseInt(_0x402f07(0x189))/0x7*(parseInt(_0x402f07(0x17f))/0x8)+-parseInt(_0x402f07(0x18a))/0x9*(parseInt(_0x402f07(0x182))/0xa)+-parseInt(_0x402f07(0x18d))/0xb*(-parseInt(_0x402f07(0x180))/0xc);if(_0x197cb1===_0x5b154a)break;else _0x315e18['push'](_0x315e18['shift']());}catch(_0x5e2717){_0x315e18['push'](_0x315e18['shift']());}}}(_0x129e,0x7fd98),this['sendButton'](id,_0x27174a(0x190),text,apii[_0x27174a(0x193)],[[action==_0x27174a(0x18c)?lenguajeGB[_0x27174a(0x184)]():lenguajeGB[_0x27174a(0x187)](),action==_0x27174a(0x18c)?_0x27174a(0x17e):_0x27174a(0x17e)],['💖\x20SER\x20VERIFICADO(A)',_0x27174a(0x186)]],null,{'mentions':this[_0x27174a(0x183)](text),'document':{'url':_0x27174a(0x18f)},'mimetype':global['dpdf'],'fileName':'😻\x20𝗦𝘂𝗽𝗲𝗿\x20𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗\x20😻','fileLength':0x38d7ea4c67fff,'pageCount':0x3e7,'contextInfo':{'externalAdReply':{'showAdAttribution':!![],'mediaType':0x2,'mediaUrl':welgata[_0x27174a(0x181)](),'title':action=='add'?_0x27174a(0x18e):'🙀\x20𝗦𝗘\x20𝗥𝗘𝗧𝗜𝗥𝗔\x20𝗗𝗘𝗟\x20𝗚𝗥𝗨𝗣𝗢!!\x20🙀','body':welgata['getRandom'](),'sourceUrl':md,'thumbnail':apii[_0x27174a(0x193)]}}})) }}};
+//CÓDIGO OFUSCADO - MOTIVOS RESERVADOS >> ()			
+var _0x27174a=_0x245b;function _0x245b(_0x5ba6cf,_0x116611){var _0x129eef=_0x129e();return _0x245b=function(_0x245bb0,_0x7a0c7f){_0x245bb0=_0x245bb0-0x17d;var _0x5a3d9e=_0x129eef[_0x245bb0];return _0x5a3d9e;},_0x245b(_0x5ba6cf,_0x116611);}function _0x129e(){var _0xd79927=['add','33fxBeyP','🌟\x20𝗗𝗜𝗦𝗙𝗥𝗨𝗧𝗔\x20𝗗𝗘𝗟\x20𝗚𝗥𝗨𝗣𝗢!!\x20🌟','https://wa.me/18059196237','*:･ﾟ★,｡:｡:･ﾟ☆｡･:｡:･ﾟ★･ﾟ｡:｡:･ﾟ☆:･ﾟ*','16bioDUd','90560wOKftO','data','610896zNDtNW','.menu','2064neToif','5507784aMSEdW','getRandom','10KnWKrq','parseMention','smsCont13','2181762fhNpQI','.verify','smsCont14','10qOOcOK','9751PpKawr','3069783wBkFZj','214452ZfbkVq'];_0x129e=function(){return _0xd79927;};return _0x129e();}(function(_0x2dc98e,_0x5b154a){var _0x402f07=_0x245b,_0x315e18=_0x2dc98e();while(!![]){try{var _0x197cb1=parseInt(_0x402f07(0x191))/0x1*(parseInt(_0x402f07(0x192))/0x2)+-parseInt(_0x402f07(0x17d))/0x3+parseInt(_0x402f07(0x18b))/0x4+-parseInt(_0x402f07(0x188))/0x5*(parseInt(_0x402f07(0x185))/0x6)+-parseInt(_0x402f07(0x189))/0x7*(parseInt(_0x402f07(0x17f))/0x8)+-parseInt(_0x402f07(0x18a))/0x9*(parseInt(_0x402f07(0x182))/0xa)+-parseInt(_0x402f07(0x18d))/0xb*(-parseInt(_0x402f07(0x180))/0xc);if(_0x197cb1===_0x5b154a)break;else _0x315e18['push'](_0x315e18['shift']());}catch(_0x5e2717){_0x315e18['push'](_0x315e18['shift']());}}}(_0x129e,0x7fd98),this['sendButton'](id,_0x27174a(0x190),text,apii[_0x27174a(0x193)],[[action==_0x27174a(0x18c)?lenguajeGB[_0x27174a(0x184)]():lenguajeGB[_0x27174a(0x187)](),action==_0x27174a(0x18c)?_0x27174a(0x17e):_0x27174a(0x17e)],['💖\x20SER\x20VERIFICADO(A)',_0x27174a(0x186)]],null,{'mentions':this[_0x27174a(0x183)](text),'document':{'url':_0x27174a(0x18f)},'mimetype':global['dpdf'],'fileName':'🪐\x20𝗦𝘂𝗽𝗲𝗿\x20𝗜𝗻𝗳𝗶𝗻𝗶𝘁𝗲 - 𝗕𝗼𝘁\x20🪐','fileLength':0x38d7ea4c67fff,'pageCount':0x3e7,'contextInfo':{'externalAdReply':{'showAdAttribution':!![],'mediaType':0x2,'mediaUrl':welinfinite[_0x27174a(0x181)](),'title':action=='add'?_0x27174a(0x18e):'🙀\x20𝗦𝗘\x20𝗥𝗘𝗧𝗜𝗥𝗔\x20𝗗𝗘𝗟\x20𝗚𝗥𝗨𝗣𝗢!!\x20🙀','body':welinfinite['getRandom'](),'sourceUrl':md,'thumbnail':apii[_0x27174a(0x193)]}}})) }}};
 			    
 break
 case 'promote':
@@ -1496,7 +1496,7 @@ let msg = {
 }[type]
 //if (msg) return m.reply(msg)
 let tg = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 centergatabot.gmail.com'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, yt, ig, paypal, fb].getRandom() }}}}, tg)
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '🪐 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 🪐', ''].getRandom(), thumbnail: infiniteImg.getRandom(), sourceUrl: [md, yt, ig, paypal, fb].getRandom() }}}}, tg)
 if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 
