@@ -32,8 +32,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 const sections = [{
 title: comienzo + ' ' + lenguajeGB['smsLista1']() + ' ' + fin,
 rows: [
-{title: lenguajeGB['smsLista2'](), rowId: `${usedPrefix}creadora`},
-{title: lenguajeGB['smsLista3'](), rowId: `${usedPrefix}donar`},
+{title: lenguajeGB['smsLista2'](), rowId: `${usedPrefix}creador`},
 {title: lenguajeGB['smsLista4'](), rowId: `${usedPrefix}ping`},
 {title: lenguajeGB['smsLista5'](), rowId: `${usedPrefix}infomenu`},
 {title: lenguajeGB['smsLista6'](), rowId: `${usedPrefix}allmenu`},
@@ -66,8 +65,7 @@ rows: [
 {title: lenguajeGB['smsLista26'](), rowId: `${usedPrefix}stickermenu`},
 {title: lenguajeGB['smsLista27'](), rowId: `${usedPrefix}makermenu`},
 {title: lenguajeGB['smsLista28'](), rowId: `${usedPrefix}menulogos2`},
-{title: lenguajeGB['smsLista29'](), rowId: `${usedPrefix}randommenu`},
-{title: lenguajeGB['smsLista30'](), rowId: `${usedPrefix}hornymenu`, description: '\n'}
+{title: lenguajeGB['smsLista29'](), rowId: `${usedPrefix}randommenu`, description: '\n'}
 ]},{	
 title: comienzo + ' ' + lenguajeGB['smsLista31']() + ' ' + fin,
 rows: [
