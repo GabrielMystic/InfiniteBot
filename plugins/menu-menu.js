@@ -207,7 +207,6 @@ ${readMore}
 ┃⚙️ _${usedPrefix}on *:* off *autosticker*_
 ┃⚙️ _${usedPrefix}on *:* off *reacciones | reaction*_
 ┃⚙️ _${usedPrefix}on *:* off *audios*_
-┃⚙️ _${usedPrefix}on *:* off *modocaliente | modohorny*_
 ┃⚙️ _${usedPrefix}on *:* off *antitoxicos | antitoxic*_
 ┃⚙️ _${usedPrefix}on *:* off *antiver | antiviewonce*_
 ┃⚙️ _${usedPrefix}on *:* off *antieliminar | antidelete*_
@@ -331,13 +330,6 @@ ${readMore}
 ┃📧➺ _${usedPrefix}novotar | devote_
 ┃📧➺ _${usedPrefix}vervotos | cekvoto_
 ┃📧➺ _${usedPrefix}delvoto | deletevoto_
-*╰━━━━━━━━━━━━⬣*
-
-*╭━━━[ CONTENIDO 🔞 ]━━⬣*
-┃ *Visita el Menú de Comandos*
-┃ *Para Adultos!!*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃🔞➺ _${usedPrefix}hornymenu_
 *╰━━━━━━━━━━━━⬣*
 
 *╭━[ CONVERTIDORES 🛰️ ]━⬣*
