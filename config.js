@@ -139,7 +139,7 @@ global.author = '𝐆𝐚𝐛𝐫𝐢𝐞𝐥'
 global.vs = '1.4.5'
 global.vsJB = '2.0'
 
-global.gt = '𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐞 - 𝐁𝐨𝐭'
+global.if = '𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐞 - 𝐁𝐨𝐭'
 global.yt = ''
 global.yt2 = 'https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s'
 global.ig = 'https://www.instagram.com/gabrielacosta_15'
