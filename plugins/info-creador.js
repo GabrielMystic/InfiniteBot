@@ -19,27 +19,12 @@ let name = await conn.getName(m.sender)
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => imagen1[1]) 
 let teksbio = `
 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-*wa.me/51959473074*
-
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *2* 💖🐈
-*wa.me/50236000633*
-
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *3* 💖🐈
-*wa.me/51933502440*
-
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *4* 💖🐈
-*wa.me/573012213225*
+*wa.me/5493491456806*
 
 *---------------------*
 
-*CENTER GATABOT*
-*centergatabot@gmail.com*
-
-𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+ 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
 *${asistencia}*
-
-*Sr. Pablo* - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
-*Wa.me/51993042301*
 `
   let teks = ' '
 const sections = [
@@ -48,8 +33,8 @@ const sections = [
 	rows: [
 	    {title: "📱 • NOMBRE", rowId: ".owner nomor"},
 	{title: "🙌 • NUMERO", rowId: ".owner bio"},
-	{title: "🌐 • CUENTAS OFICIALES", rowId: ".cuentasgb"},
-	{title: "😸 • GRUPOS", rowId: ".grupos"},
+	{title: "🌐 • CUENTAS OFICIALES", rowId: ".cuentasib"},
+	{title: "✨ • GRUPOS", rowId: ".grupos"},
 	{title: "🌎 • SCRIPT", rowId: ".sc"},
 	]
     },{
@@ -79,10 +64,10 @@ const listMessage = {
       const count = args[1] && args[1].length > 0 ? Math.min(99999999, Math.max(parseInt(args[1]), 1)) : !args[1] || args.length < 3 ? 1 : Math.min(1, count)
         switch (type) {
           case 'nomor':
-          conn.reply(m.chat, "Nombre del bot : GataBot-MD 🐈", m, { contextInfo: { mentionedJid: [nowner] }})
+          conn.reply(m.chat, "Nombre del bot : InfiniteBot ♾️", m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
-          conn.sendHydrated(m.chat, teksbio, wm, ppown, "https://www.instagram.com/gata_dios", "Instagram",null, [null, null], m)
+          conn.sendHydrated(m.chat, teksbio, wm, ppown, "https://www.instagram.com/gabrielacosta_15", "Instagram",null, [null, null], m)
             break
           default:
             return await conn.sendMessage(m.chat, listMessage, { quoted: m, contextInfo: { mentionedJid: [m.sender] }})
