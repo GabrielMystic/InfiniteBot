@@ -18,7 +18,7 @@ let name = await conn.getName(m.sender)
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => imagen1[1]) 
 let teksbio = `
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+𝗜𝗻𝗳𝗶𝗻𝗶𝘁𝗲-𝗕𝗼𝘁♾️
 *wa.me/5493491456806*
 
 *---------------------*
@@ -40,7 +40,6 @@ const sections = [
     },{
 	title: `–––––––·• APOYA AL BOT –––––––·•`,
 	rows: [
-	    {title: "💹 • DONAS", rowId: ".paypal"},
 	{title: "🤖 • INSTALARBOT", rowId: ".instalarbot"},
 	{title: "🌟 • PREMIUM", rowId: ".pasepremium"},
 	]
