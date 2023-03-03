@@ -33,9 +33,6 @@ const sections = [
 	rows: [
 	    {title: "📱 • NOMBRE", rowId: ".owner nomor"},
 	{title: "🙌 • NUMERO", rowId: ".owner bio"},
-	{title: "🌐 • CUENTAS OFICIALES", rowId: ".cuentasib"},
-	{title: "✨ • GRUPOS", rowId: ".grupos"},
-	{title: "🌎 • SCRIPT", rowId: ".sc"},
 	]
     },{
 	title: `–––––––·• APOYA AL BOT –––––––·•`,
