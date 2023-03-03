@@ -34,12 +34,6 @@ const sections = [
 	    {title: "📱 • NOMBRE", rowId: ".owner nomor"},
 	{title: "🙌 • NUMERO", rowId: ".owner bio"},
 	]
-    },{
-	title: `–––––––·• APOYA AL BOT –––––––·•`,
-	rows: [
-	{title: "🤖 • INSTALARBOT", rowId: ".instalarbot"},
-	{title: "🌟 • PREMIUM", rowId: ".pasepremium"},
-	]
   },
 ]
 
