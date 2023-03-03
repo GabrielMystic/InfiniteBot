@@ -20,7 +20,7 @@ let str = `
 *If you have doubts, suggestions or questions just write on Instagram.*
 `.trim()
   
-conn.sendHydrated(m.chat, str, wm, media, 'https://github.com/GabrielMystic/InfiniteBot', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
+conn.sendHydrated(m.chat, str, wm, media, 'https://github.com/GabrielMystic/InfiniteBot', '𝗜𝗻𝗳𝗶𝗻𝗶𝘁𝗲-𝗕𝗼𝘁', null, null, [
 ['𝘾𝙧𝙚𝙖𝙙𝙤𝙧 | 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 ✨', '#owner'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
 ], m,)}
