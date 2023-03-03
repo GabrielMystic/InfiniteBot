@@ -7,7 +7,7 @@ else who = m.chat
 //let who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text ? text.replace(/[^0-9]/g, '') + '@s.whatsapp.net' : false
 //let res = [];
 let user = global.db.data.users[who]
-if (!who) throw `*MENCIONA O REPONDA AL MENSAJE DE LA APERSONA QUE SERÁ PREMIUM*\n\n*${usedPrefix + command} @${m.sender.split`@`[0]} 1*\n*${usedPrefix + command} 1*`
+if (!who) throw `*MENCIONA O REPONDA AL MENSAJE DE LA PERSONA QUE SERÁ PREMIUM*\n\n*${usedPrefix + command} @${m.sender.split`@`[0]} 1*\n*${usedPrefix + command} 1*`
 let txt = text.replace('@' + who.split`@`[0], '').trim()
 let name = await '@' + who.split`@`[0]
 
@@ -102,7 +102,7 @@ if (!who) throw `${mg}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 𝘼 𝙇𝘼 𝙋𝙀�
 if (global.prems.includes(who.split`@`[0])) throw `${iig}𝙀𝙇/𝙇𝘼 𝙐𝙎𝙐𝘼𝙍𝙄𝙊(𝘼) 𝙔𝘼 𝙀𝙎 𝙑𝙄𝙋 ✨\n\n𝙏𝙃𝙀 𝙐𝙎𝙀𝙍 𝙄𝙎 𝘼𝙇𝙍𝙀𝘼𝘿𝙔 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 ✨`
 global.prems.push(`${who.split`@`[0]}`)
   //user.premium = true
-conn.reply(m.chat, `${eg}@${who.split`@`[0]} 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙐𝙎𝙐𝘼𝙍𝙄𝙊(𝘼) 𝙑𝙄𝙋. 𝙉𝙊 𝙑𝘼 𝙏𝙀𝙉𝙀𝙍 𝙇𝙄𝙈𝙄𝙏𝙀𝙎 𝘾𝙊𝙉 ${gt} 😼\n\n@${who.split`@`[0]} 𝙔𝙊𝙐 𝘼𝙍𝙀 𝙉𝙊𝙒 𝘼 𝙑𝙄𝙋 𝙐𝙎𝙀𝙍. 𝙒𝙄𝙇𝙇 𝙉𝙊𝙏 𝙃𝘼𝙑𝙀 𝙇𝙄𝙈𝙄𝙏𝙎 😼`, m, {
+conn.reply(m.chat, `${eg}@${who.split`@`[0]} 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙐𝙎𝙐𝘼𝙍𝙄𝙊(𝘼) 𝙑𝙄𝙋. 𝙉𝙊 𝙑𝘼 𝙏𝙀𝙉𝙀𝙍 𝙇𝙄𝙈𝙄𝙏𝙀𝙎 𝘾𝙊𝙉 ${if} \n\n@${who.split`@`[0]} 𝙔𝙊𝙐 𝘼𝙍𝙀 𝙉𝙊𝙒 𝘼 𝙑𝙄𝙋 𝙐𝙎𝙀𝙍. 𝙒𝙄𝙇𝙇 𝙉𝙊𝙏 𝙃𝘼𝙑𝙀 𝙇𝙄𝙈𝙄𝙏𝙎 `, m, {
 contextInfo: {
 mentionedJid: [who]
 }})}
