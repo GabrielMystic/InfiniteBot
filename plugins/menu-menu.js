@@ -182,9 +182,8 @@ ${readMore}
 *╰━━━━━━━━━━━━⬣*
 
 *╭━〔 IA 〕━⬣*
-┃ *Tienes la Ocasión de*
-┃ *Conversar con InfiniteBot!!*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃🪄➺ _${usedPrefix}ia | chatgpt *texto*_
+┃🪄➺ _${usedPrefix}ia2 | dalle *texto*_
 ┃🪄➺ _${usedPrefix}simi | okgoogle *texto*_
 ┃🪄➺ _${usedPrefix}alexa | siri | cortana *texto*_
 ┃🪄➺ _${usedPrefix}simsimi | bixby *texto*_
