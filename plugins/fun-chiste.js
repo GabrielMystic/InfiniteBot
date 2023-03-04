@@ -1,8 +1,6 @@
-// By https://github.com/elrebelde21/The-LoliBot-MD
-
 let handler = async (m, { conn, text}) => {
 
-m.reply(`╭┄〔 *${wm}* 〕┄⊱\n┊\n *😹 ${pickRandom(global.chiste)} 😹*\n┊\n*╰━━━⊰ 𓃠 ${vs} ⊱━━━━დ*`)
+m.reply(`╭┄〔 *${wm}* 〕┄⊱\n┊\n * ${pickRandom(global.chiste)} 😹*\n┊\n*╰━━━⊰ ${vs} ⊱━━━━დ*`)
 }
 handler.tags = ['humor']
 handler.command = ['chiste']
