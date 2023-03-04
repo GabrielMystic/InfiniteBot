@@ -34,7 +34,7 @@ let top = `*🌈TOP 10 GAYS/LESBIANAS DEL GRUPO🌈*
 m.reply(top, null, { mentions: conn.parseMention(top) })
 //m.reply(top, null, {
 
-//m.reply(conn.sendHydrated(m.chat, `*SON MUY GAYS!!* 🌈`, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
+//m.reply(conn.sendHydrated(m.chat, `*SON MUY GAYS!!* 🌈`, wm, null, md, '𝗜𝗻𝗳𝗶𝗻𝗶𝘁𝗲-𝗕𝗼𝘁', null, null, [
 //['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🔮', `${usedPrefix + command}`],
 //['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
 //], m))
@@ -62,7 +62,7 @@ let top = `*🌸 TOP 10 OTAKUS DEL GRUPO 🌸*
 *_10.- 🌷 ${user(j)}_* 🌷`
 m.reply(top, null, { mentions: conn.parseMention(top) })
 //m.reply(top, null, {
-//conn.sendHydrated(m.chat, top, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
+//conn.sendHydrated(m.chat, top, wm, null, md, '𝗜𝗻𝗳𝗶𝗻𝗶𝘁𝗲-𝗕𝗼𝘁', null, null, [
 //['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🔮', `${usedPrefix + command}`],
 //['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
 //], m, null, {
@@ -105,7 +105,7 @@ let top = `*_💎TOP 10 L@S MEJORES INTEGRANTES👑_*
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'toplagrasa') {
-let top = `*_Uwu TOP 10 LA GRASA Uwu_* 
+let top = `*_TOP 10 LA GRASA_* 
     
 *_1.- Bv ${user(a)} Bv_*
 *_2.- :v ${user(b)} :v_*
@@ -120,7 +120,7 @@ let top = `*_Uwu TOP 10 LA GRASA Uwu_*
 m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topgrasa') {
-let top = `*_Uwu TOP 10 LA GRASA Uwu_* 
+let top = `*_TOP 10 LA GRASA_* 
     
 *_1.- Bv ${user(a)} Bv_*
 *_2.- :v ${user(b)} :v_*
