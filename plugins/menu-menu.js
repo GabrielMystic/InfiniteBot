@@ -94,9 +94,6 @@ let menuB = `
 *╰*┅┅┅┅┅┅┅┅┅┅┅┅┅ *✧*
 ${readMore}
 *╭━〔 INFORMACIÓN DE INFINITEBOT 〕⬣*
-┃💫➺ _${usedPrefix}cuentasinfinitebot | cuentasib_
-┃💫➺ _${usedPrefix}gruposib | grupos | groupib_
-┃💫➺ _${usedPrefix}donar | donate_
 ┃💫➺ _${usedPrefix}listagrupos | grouplist_
 ┃💫➺ _${usedPrefix}estado | heyinfinite | status_
 ┃💫➺ _${usedPrefix}infoinfinite | infobot_
